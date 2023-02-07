@@ -46,7 +46,7 @@ function draw() {
     
     
     
-    if (touches[0].x > box.x - box.width/2 && touches[0].x < box.x + box.width/2 && touches[0].y > box.y - box.height/2 && touches[0].y < box.y + box.height/2) {
+    if(touches[0].x > box.x - box.width/4 && touches[0].x < box.x + box.width/4 && touches[0].y > box.y - box.height/4 && touches[0].y < box.y + box.height/4) {
       
       writeWater(waterCollected+1)
     }
