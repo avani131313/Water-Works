@@ -5,7 +5,7 @@ var bgImg, buttonImg, millenniumImg, iniImg,innovationImg
 
 
 function preload(){
-bgImg = loadImage("assets/bgActual.png")
+bgImg = loadImage("unnamed-1.jpg")
 buttonImg = loadImage("assets/button.png")
 iniImg = loadImage("assets/ini.png")
 millenniumImg = loadImage("assets/Millennium.png")
