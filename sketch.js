@@ -19,7 +19,7 @@ function setup() {
   
   box = createSprite(width / 2, height / 2+50, 200, 200);
   box.addImage(buttonImg)
-  
+  box.scale = 0.5
   box.shapeColor = "black"
   
 
